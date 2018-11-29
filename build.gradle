@@ -1,0 +1,30 @@
+plugins {
+	id 'application'
+	id 'groovy'
+}
+
+group = "org.codesimius"
+
+mainClassName = "org.codesimius.iota.Main"
+
+task wrapper(type: Wrapper) {
+	gradleVersion = "4.9"
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile "org.codehaus.groovy:groovy-all:2.4.7",
+			"commons-io:commons-io:2.6"
+}
+
+applicationDistribution.from(projectDir) {
+	include "LICENSE.txt", "README.md"
+}
+
+run {
+	enableAssertions = true
+	if (project.hasProperty("args")) args project.property("args").split()
+}
