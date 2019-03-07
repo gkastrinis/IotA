@@ -13,7 +13,7 @@ Installation & Testing
 ```bash
 git clone git://github.com/gkastrinis/iota.git
 cd iota
-./gradlew run -Pargs=src/test/resources/patch720.json
+./gradlew run -Pargs=src/test/resources/720.json
 ```
 
 [badge-license]: https://img.shields.io/badge/license-MIT-green.svg

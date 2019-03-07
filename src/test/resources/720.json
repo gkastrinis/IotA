@@ -1,0 +1,34 @@
+{
+	"heroes": [
+		{
+			"name": "Crystal Maiden",
+			"mainAttr": "Int",
+			"baseStr": 18,
+			"gainStr": 2.2,
+			"baseAgi": 16,
+			"gainAgi": 1.6,
+			"baseInt": 14,
+			"gainInt": 3.3,
+			"baseHP": 200,
+			"regenHP": 0,
+			"mgRes": 0.25,
+			"baseMP": 75,
+			"regenMP": 0,
+			"mgDmg": 0.0,
+			"armor": 0,
+			"atckPS": 0.59,
+			"speedAmp": 0.0,
+			"dmgMin": 30,
+			"dmgMax": 36,
+			"speed": 275,
+			"turnRate": 0.5,
+			"visionDay": 1800,
+			"visionNight": 800,
+			"atckRange": 600,
+			"projSpeed": 900,
+			"atckPoint": 0.55,
+			"atckBackSwg": 0.0,
+			"BAT": 1.7
+		}
+	]
+}
